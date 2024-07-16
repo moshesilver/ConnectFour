@@ -30,6 +30,7 @@ namespace ConnectFour
             {
                 win = Turn();
             } while (!win);
+            Console.ReadLine();
         }
         private static Player CurrentPlayer()
         {
